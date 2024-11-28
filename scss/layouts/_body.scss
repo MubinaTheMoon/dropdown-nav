@@ -1,0 +1,55 @@
+.main-container{
+    padding-left: 12.4rem;
+    padding-right: 12.4rem;
+    display: flex;
+    justify-content: space-between;
+
+    .main__text{
+        align-self: flex-end;
+
+        h1{
+            font-size: 8rem;
+            line-height: 1;
+            color: #151515;
+            font-weight: 700;
+            padding-bottom: 4.8rem;
+        }
+        p{
+            font-size: 1.8rem;
+            line-height: 1.5;
+            color: #686868;
+            width: 44.5rem;
+            padding-bottom: 5.1rem;
+        }
+        .btn{
+            width: 16.7rem;
+            padding: 1.5rem 3rem;
+            border:1px solid transparent;
+            background-color: #151515;
+            border-radius: 1.5rem;
+            margin-bottom: 10.8rem;
+            a{
+                color: #fff;
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+        }
+
+        .logo-imgs{
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+
+            img{
+                object-fit: cover;
+            }
+            .databiz{
+                height: 2rem;
+            }
+        }
+    }
+
+    .main-img{
+        width: 48rem;
+    }
+}
