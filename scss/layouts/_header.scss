@@ -125,7 +125,7 @@
                     .last-list{
                         transition: .3s;
                         position: absolute;
-                        top: 2.5rem;
+                        top: 1.5rem;
                         left: 96%;
                         padding: 1rem 1.5rem;
                         border-radius: 1rem;
@@ -137,6 +137,12 @@
                         &:hover{
                             background-color: #ddd;
                         }
+                    }
+                    .second{
+                        top: 6rem;
+                    }
+                    .third{
+                        top: 10.5rem;
                     }
                 }
 

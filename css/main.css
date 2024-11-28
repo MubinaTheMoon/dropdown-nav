@@ -173,7 +173,7 @@ body {
 .sitenav__list-item .hidden__list .hidden__list-item .inner-list .inner-list-item .last-list {
   transition: 0.3s;
   position: absolute;
-  top: 2.5rem;
+  top: 1.5rem;
   left: 96%;
   padding: 1rem 1.5rem;
   border-radius: 1rem;
@@ -184,6 +184,12 @@ body {
 }
 .sitenav__list-item .hidden__list .hidden__list-item .inner-list .inner-list-item .last-list:hover {
   background-color: #ddd;
+}
+.sitenav__list-item .hidden__list .hidden__list-item .inner-list .inner-list-item .second {
+  top: 6rem;
+}
+.sitenav__list-item .hidden__list .hidden__list-item .inner-list .inner-list-item .third {
+  top: 10.5rem;
 }
 .sitenav__list-item .second-hidden {
   width: 11.6rem;
